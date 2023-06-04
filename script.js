@@ -35,7 +35,8 @@ function progressUpdate(packet){
 }
 
 function getLangPath() {
-var s = './lang-data/4.0.0';
+//var s = './lang-data/4.0.0';
+var s = '.';
 var accuracy = document.querySelector('#accuracy').value;
 if(accuracy>3){
 s = "https:\/\/html-examples.github.io/tessdata/4.0.0";
