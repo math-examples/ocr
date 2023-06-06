@@ -39,7 +39,7 @@ function getLangPath() {
 var s = '.';
 var accuracy = document.querySelector('#accuracy').value;
 if(accuracy>3){
-s = "https:\/\/html-examples.github.io/tessdata/4.0.0";
+s = "https://math-examples.github.io/tesseract-ocr-data/4.0.0";
 accuracy-=3; 
 }
 if(accuracy=='1')s+='_fast';
