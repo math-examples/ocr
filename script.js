@@ -38,6 +38,10 @@ function getLangPath() {
 //var s = './lang-data/4.0.0';
 var s = '.';
 var accuracy = document.querySelector('#accuracy').value;
+if(accuracy>6){
+s = "https://tessdata.projectnaptha.com/4.0.0";
+accuracy-=6; 
+}
 if(accuracy>3){
 s = "https://math-examples.github.io/tesseract-ocr-data/4.0.0";
 accuracy-=3; 
